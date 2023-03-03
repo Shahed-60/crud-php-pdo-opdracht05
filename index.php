@@ -36,6 +36,8 @@
         <input type="email" name="email"><br>
         <input type="submit" value="Sla Op">
         <input type="reset" value="Reset">
+        <input type="hidden" name="timestamp" value="<?= time() ?>">
+
     </form>
     <script>
         document.querySelector('input[type="reset"]').addEventListener('click', function(event) {
