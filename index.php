@@ -22,12 +22,12 @@
             <option value="7">Zonnebaan 22</option>
         </select><br>
         <label for="lidmaatschap">Selecteer een lidmaatschap</label><br>
-        <input type="radio" class="exclude-from-reset" name="lid" value="Comfort">Comfort
-        <input type="radio" class="exclude-from-reset" name="lid" value="Premium">Premium
-        <input type="radio" class="exclude-from-reset" name="lid" value="All in">All in <br>
+        <input type="radio" name="lid" value="Comfort">Comfort
+        <input type="radio" name="lid" value="Premium">Premium
+        <input type="radio" name="lid" value="All in">All in <br>
         <label for="looptijd">Looptijd:</label><br>
-        <input type="radio" class="exclude-from-reset" name="tijd" id="jaar">Jaarlidmaatschap
-        <input type="radio" class="exclude-from-reset" name="tijd" id="flex">Flex optie <br>
+        <input type="radio" name="tijd" id="jaar">Jaarlidmaatschap
+        <input type="radio" name="tijd" id="flex">Flex optie <br>
         <label for="extra">Selecteer je extra's</label><br>
         <input type="checkbox" name="extra" id="water">Yanga sportwater €2,50 per 4 weken <br>
         <input type="checkbox" name="extra" id="online">Pesonal online coach €60,00 eenmalig <br>
