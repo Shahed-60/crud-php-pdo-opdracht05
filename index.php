@@ -12,7 +12,7 @@
     <h2>BASIC-FIT Utrecht</h2>
     <form action="create.php" method="POST">
         <label for="homeclub">Kies je homeclub:</label><br>
-        <select class="select">
+        <select class="select" name="homeclub">
             <option value="1">Moreelsehoek 2</option>
             <option value="2">HerculesPlein 375</option>
             <option value="3">Van Heuven Goedhartplein 13</option>
@@ -25,17 +25,22 @@
         <input type="radio" name="lid" value="Comfort">Comfort
         <input type="radio" name="lid" value="Premium">Premium
         <input type="radio" name="lid" value="All in">All in <br>
+
         <label for="looptijd">Looptijd:</label><br>
         <input type="radio" name="tijd" id="jaar">Jaarlidmaatschap
         <input type="radio" name="tijd" id="flex">Flex optie <br>
+
         <label for="extra">Selecteer je extra's</label><br>
         <input type="checkbox" name="extra" id="water">Yanga sportwater €2,50 per 4 weken <br>
         <input type="checkbox" name="extra" id="online">Pesonal online coach €60,00 eenmalig <br>
         <input type="checkbox" name="extra" id="intro">Personal training intro €25,00 eenmalig <br>
+
         <label for="mail">E-mail</label><br>
         <input type="email" name="email"><br>
+
         <input type="submit" value="Sla Op">
         <input type="reset" value="Reset">
+
         <input type="hidden" name="timestamp" value="<?= time() ?>">
 
     </form>
